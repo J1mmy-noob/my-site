@@ -1,0 +1,46 @@
+.bgimg{
+    background-image:url("https://source.unsplash.com/RnCPiXixooY");
+    height:100%;
+    background-position:center;
+    background-size:cover;
+    font-family: 'Ranchers', cursive;
+    font-size:25px;
+
+}
+.middle{
+    position:absolute;
+    text-align: center;
+    top: 100px;
+    left: 550px;
+    color: black;
+
+}
+
+.topleft{
+    position: absolute;
+    top: 50px;
+    left: 650px;
+
+}
+
+.button{
+    background-color: slateblue;
+    color: blanchedalmond;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+}
+.button:hover{
+    background-color: blue;
+
+}
+
+.bottomleft{
+    position: absolute;
+    left: 530px;
+    top: 350px;
+}
+
+html,body{
+        height:100%;
+}

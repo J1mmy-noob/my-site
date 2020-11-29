@@ -1,0 +1,48 @@
+.body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+header {
+  height: 70px;
+  width: 100%;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    90deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+}
+
+.header-left {
+  font-family: "Oswald", sans-serif;
+  float: left;
+  padding: 20px;
+  font-size: 20px;
+  color: white;
+}
+
+.top-wrapper {
+  grid-column-start: 2;
+  grid-row-start: 1;
+  text-align: center;
+}
+
+.table {
+  grid-column-start: 2;
+  grid-row-start: 2;
+  padding: 0px 20px 40px 160px;
+}
+tr,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.form {
+  grid-column-start: 2;
+  grid-row-start: 3;
+  text-align: center;
+}
